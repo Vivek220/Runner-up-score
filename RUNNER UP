@@ -1,0 +1,8 @@
+if __name__ == '__main__':
+    n = int(input())
+    X = list(map(int, input().split()))
+    X = list(set(X))
+
+    X.sort()
+
+    print(X[-2])
